@@ -1,0 +1,22 @@
+/* Changing background color */
+body {
+    background-color: #edebe4; /* consegui capturar o rgb da página Sinonimos.com.br inspecionando ela */  
+    font-family: Helvetica;
+    
+    /* criando uma margem do site universal */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+} 
+
+/* tudo que eu fizer aqui, cairá na classe que eu "titulo" dentro da divisão que eu criei no arquivo html */
+.titulo{ 
+    font-size: 2.5em;
+    color: #f75429;
+}
+
+#slogan { /* modificando o id slogan */
+    color: #a59680;
+    font-size: 1.2em;
+}
