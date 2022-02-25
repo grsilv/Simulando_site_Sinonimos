@@ -1,7 +1,8 @@
-/* Changing background color */
+/* Mudando a cor de fundo */
 body {
     background-color: #edebe4; /* consegui capturar o rgb da página Sinonimos.com.br inspecionando ela */  
     font-family: Helvetica;
+    font-size: 1.em;
     
     /* criando uma margem do site universal */
     margin-top: 0;
@@ -10,8 +11,18 @@ body {
     margin-left: 0;
 } 
 
+#h-home {
+    padding: 60px; /* criando aqui um espaçamento interno em 4 lados do box */
+}
+
+@media (min-width: 768px) {
+    #container {
+        width: calc(100% - 20px);
+    }
+}
+
 /* tudo que eu fizer aqui, cairá na classe que eu "titulo" dentro da divisão que eu criei no arquivo html */
-.titulo{ 
+#logo{ 
     font-size: 2.5em;
     color: #f75429;
 }
@@ -19,4 +30,5 @@ body {
 #slogan { /* modificando o id slogan */
     color: #a59680;
     font-size: 1.2em;
+    margin-top: 0px;
 }
