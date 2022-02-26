@@ -21,6 +21,11 @@ body {
     }
 }
 
+#sinonimos-populares:after, #sinonimos-populares:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .row:after, .row:before, .share-btns:after, .share-btns:before, .sites:after, .sites:before, .wrapper:after, .wrapper:before {
+    content: " ";
+    display: table;
+}
+
 /* tudo que eu fizer aqui, cairá na classe que eu "titulo" dentro da divisão que eu criei no arquivo html */
 #logo{ 
     font-size: 2.5em;
