@@ -6,5 +6,5 @@
 <div>
 <p>Como está ficando a simulação:</p>
   <br>
-<img scr="https://user-images.githubusercontent.com/97268790/155884301-dad4ccb6-9170-403b-beb4-e16c271b882b.PNG" />
+<img src="https://user-images.githubusercontent.com/97268790/155884301-dad4ccb6-9170-403b-beb4-e16c271b882b.PNG" width: 700px />
 </div>
