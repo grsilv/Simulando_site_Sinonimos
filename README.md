@@ -5,4 +5,7 @@
 
 <p>Como está ficando a simulação:</p>
 <br>
-<p img scr="sinonimos_simula.PNG"></p>
+
+<div>
+<p> <img scr="sinonimos_simula.PNG"> </p>
+</div>
