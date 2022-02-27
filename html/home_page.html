@@ -1,6 +1,7 @@
 <!DOCTYPE html> <!-- definindo tipo do arquivo -->
+<!-- Agora, o documento ficará no formato XHTML5 -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br"> 
-<!-- Agora, o documento está no formato XHTML5 -->
+
 
     <head> <!-- cabeçalho do site -->
         <title>Sinônimos</title> <!-- título do site -->
@@ -16,29 +17,37 @@
         <!-- utilizo id para coisas específicas, e class parar múltiplicas coisas-->
         <div class="header" id="h-home"> 
             
-            <div class="container"> <!-- alinhando a página com container -->
-                <div class="row"> <!-- estabelecendo o pai das colunas -->
-                    <!-- Coluna são quaisquer elementos que possuam classe de grid, 
-                    como  col-xs-*, col-sm-*, col-md-*, col-lg-*. O *; os asterísticos são
-                    números que condizem com o tamanho dessas colunas -->
+            <!-- alinhando a página com container -->
+            <div class="container"> 
+                
+                <!-- estabelecendo o pai das colunas -->
+                <!-- Coluna são quaisquer elementos que possuam classe de grid, 
+                como  col-xs-*, col-sm-*, col-md-*, col-lg-*. O *; os asterísticos são
+                números que condizem com o tamanho dessas colunas -->
+                <div class="row"> 
                     <div class="col-xs-5 col-md-6">
                         
-                        <div id="logo"> <!-- definindo uma divisão com uma classe logo -->
-                            <b>sinônimos<span><font color = #a59680>.com.br</font></span></b> <!-- impedindo a quebra de linha -->
+                        <!-- definindo uma divisão com uma classe logo -->
+                        <div id="logo"> 
+                                <!-- estilizando o .com.br separando-o com a tag <span> -->
+                            <b>sinônimos<span><font color = #a59680>.com.br</font></span></b>
                         </div>
 
-                        <div id="slogan"> <!-- este id ficará embaixo da classe logo, servindo de slogan -->
+                        <!-- este id ficará embaixo da classe logo, servindo de slogan -->
+                        <div id="slogan"> 
                             dicionário de sinônimos online
                         </div>
                     </div>
                     
                     <div class="col-xs-7 col-md-6 s-wrap">
-                
-                        <input type="text" placeholder="Buscar sinônimos..."> <!-- adicionando uma entrada (input) como caixa de texto -->
+                        
+                        <!-- adicionando uma entrada (input) como caixa de texto -->
+                        <input type="text" placeholder="Buscar sinônimos..."> 
 
-                        <div class="sites"> <!-- links dos sites extras que os desenvolvedores do 
-                        Sinonimos.com.br provavelmente criaram, também -->
-                            <a href="file:///C:/Users/grsil/OneDrive/Documentos/Simulando%20sinonimos/html/home_page.html" title="Dicionário de Sinônimos">Sinônimos</a>
+                        <!-- links dos sites extras que os desenvolvedores do Sinonimos.com.br provavelmente criaram, também -->
+                        <!-- Vai servir como um tipo de créditos para os criaores reais -->
+                        <div class="sites"> 
+                            <a href="https://www.sinonimos.com.br/" title="Dicionário de Sinônimos">Sinônimos</a>
                             <a href="https://www.dicio.com.br/" rel="nofollow" title="Dicionário Online de Português">Dicionário</a>
                             <a href="https://www.antonimos.com.br/" rel="nofollow" title="Dicionário de Antônimos">Antônimos</a>
                             <a href="https://www.conjugacao.com.br/" rel="nofollow" title="Conjugação de Verbos">Conjugação</a>
